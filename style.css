@@ -23,13 +23,18 @@
     color: azure;
   }  
   span {
-      color: #DAA344;
+      color: #361939;
   }  
   a {
       color: #F2D649;
       text-decoration: none;
       font-size: medium; 
-      padding: 20px;   
+    
+  }
+  p {
+      text-align: left;
+      line-height: 1.5em;
+      padding: 20px;
   }
   #img-div {
     text-align: center;
@@ -48,7 +53,7 @@
     color: azure;
     text-align: center;
     font-size: .75em;
-    padding: 50px;
+    padding-bottom: 150px;  
   }
   h2 {
     background-color:#5F1A51;
@@ -88,7 +93,7 @@ h1 {
 }  
 
 .info-picture img {
-    width: 50%;
+    width: 70%;
     border-radius: 50px;
 }
 li {
@@ -97,9 +102,10 @@ li {
 }
 .highlights-awards {
     padding-top: 50px;
-    background-color: #671397;
+    background-color: #5F1A51;
     text-align: center;
 }
+
 
 
 
