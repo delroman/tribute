@@ -3,22 +3,23 @@
     padding: 0;
     margin:0;
     font-family: Arial, Helvetica;
-  }
+}
+
   #main {
     text-align: center;
     background-color:#5F1A51;
     color: azure;
     align-items: center;
-    font-family: Arial, Helvetica;
     font-size: 16px;
   }
-  #title {
+  #title, h2 {
     text-align: center;
     background-color:#5F1A51;
     font-size: 1.25em;
     width:100%;
     align-items: center;
     padding: 20px;
+    color: azure;
   }  
   span {
       color: #DAA344;
@@ -26,7 +27,8 @@
   a {
       color: #F2D649;
       text-decoration: none;
-      font-size: medium;     
+      font-size: medium; 
+      padding: 20px;   
   }
   #img-div {
     text-align: center;
@@ -45,6 +47,10 @@
     font-size: .75em;
     padding: 10px;
   }
+
+/* ============SECTION============ */
+
+
   #main-info {
       display: flex;
       padding-top: 50px;
@@ -52,18 +58,26 @@
       justify-content: space-around;   
       background-color:#DAA344; 
   }
+  .personal-info {
+    width: 25%;
+      
+}
   .info-picture {
       max-width: 944px;
       max-height: 900px;
-      margin-bottom: 50px;
-    
-    
-  }
-  .personal-info {
-    
+      margin-bottom: 50px;   
   }
   .info-picture img {
-      width: 80%;
+      width: 50%;
       border-radius: 50px;
   }
+  .personal-info {
+    width: 25%;
+      
+}
+.career-info {
+    width: 25%;
+
+}
+  
 
