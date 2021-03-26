@@ -18,12 +18,11 @@ body {
   }
   #title {
     text-align: center;
-    background-color: #361939;
+    background-color:#5F1A51;
     font-size: 1.25em;
     width:100%;
     align-items: center;
     padding: 20px;
-    
   }  
   span {
       color: #DAA344;
@@ -31,25 +30,44 @@ body {
   a {
       color: #F2D649;
       text-decoration: none;
-      font-size: medium;
-      
+      font-size: medium;     
   }
   #img-div {
     text-align: center;
     background-color: #361939;
-    align-items:center;
-    
+    align-items:center;  
   }
   img {
     display: block;
-    width:100%;  
+    width:100%; 
     min-width: 500px;
     max-width: 2000px;
   }
-
   figcaption {
     color: azure;
     text-align: center;
     font-size: .75em;
     padding: 10px;
   }
+  #main-info {
+      display: flex;
+      padding-top: 50px;
+      align-items: center;
+      justify-content: space-around;   
+      background-color:#DAA344; 
+  }
+  .info-picture {
+      max-width: 944px;
+      max-height: 900px;
+      margin-bottom: 50px;
+    
+    
+  }
+  .personal-info {
+    
+  }
+  .info-picture img {
+      width: 80%;
+      border-radius: 50px;
+  }
+
