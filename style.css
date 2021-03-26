@@ -3,6 +3,7 @@
     padding: 0;
     margin:0;
     font-family: Arial, Helvetica;
+   
 }
 
   #main {
@@ -12,7 +13,7 @@
     align-items: center;
     font-size: 16px;
   }
-  #title, h2 {
+  #title{
     text-align: center;
     background-color:#5F1A51;
     font-size: 1.25em;
@@ -34,6 +35,8 @@
     text-align: center;
     background-color: #361939;
     align-items:center;  
+    min-width: 500px;
+    max-width: 2000px;
   }
   img {
     display: block;
@@ -45,39 +48,58 @@
     color: azure;
     text-align: center;
     font-size: .75em;
-    padding: 10px;
+    padding: 50px;
   }
+  h2 {
+    background-color:#5F1A51;
+    color: azure; 
+    text-align: center;
+    font-size: 1em;
+}
+h1 {
+    color: azure; 
+  
+}
 
 /* ============SECTION============ */
-
-
-  #main-info {
-      display: flex;
-      padding-top: 50px;
-      align-items: center;
-      justify-content: space-around;   
-      background-color:#DAA344; 
-  }
-  .personal-info {
-    width: 25%;
-      
+#main-section {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center; 
+    background-color:#DAA344; 
 }
-  .info-picture {
-      max-width: 944px;
-      max-height: 900px;
-      margin-bottom: 50px;   
-  }
-  .info-picture img {
-      width: 50%;
-      border-radius: 50px;
-  }
-  .personal-info {
-    width: 25%;
-      
+.main-info {
+    margin: 20px;
+}
+.personal-info {
+  width: 100%;
+    
+}
+.career-history{
+    width: 100%;
+    
 }
 .career-info {
-    width: 25%;
-
-}
+    width: 90%;
   
+}  
+
+.info-picture img {
+    width: 50%;
+    border-radius: 50px;
+}
+li {
+    text-align: center;
+    padding: 20px;
+}
+.highlights-awards {
+    padding-top: 50px;
+    background-color: #671397;
+    text-align: center;
+}
+
+
 
